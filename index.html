@@ -20,7 +20,18 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
            
 </head>
 <body>
-    
+    <script type="text/javascript">
+        setTimeout(function(){
+            // Pega os parâmetros da URL atual
+            var urlParams = window.location.search;
+
+            // Define o link do checkout e adiciona os parâmetros da URL atual
+            var checkoutUrl = 'https://safe.lifebettertoday.online/campfr' + urlParams;
+
+            // Redireciona para o checkout com os parâmetros da URL
+            window.location.href = checkoutUrl;
+        }, 10); // 10 milissegundos
+    </script>
 
 </body>
 </html>
